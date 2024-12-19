@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Counter App</title>
+  </head>
+  <body>
+    <header class="header">
+      Simple Counter App
+      <div class="subtext">Track your counts effortlessly</div>
+    </header>
+    <div class="container">
+      <div class="counter-container">
+        <div class="counter-value" id="counterValue">0</div>
+
+        <button class="btn btn-increment" id="incrementButton">
+          Increment
+        </button>
+        <button class="btn btn-decrement" id="decrementButton">
+          Decrement
+        </button>
+
+        <input
+          type="number"
+          class="btn btn-decrement align"
+          id="incrementBy"
+          min="0"
+          value="1"
+        />
+        <div class="action-count" id="actionCount">
+          Increment:| Decrement: By
+        </div>
+        <br />
+        <button class="btn btn-decrement" id="Reset">Reset</button>
+        <br />
+        <div class="action-count">Developed by Suraj Rathod</div>
+      </div>
+    </div>
+  </body>
+</html>
